@@ -1,0 +1,105 @@
+.signInForm {
+  width: 85%;
+  min-height: 200px;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+  justify-content: space-evenly;
+  .signInInputBox {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80px;
+    .passEsp {
+      display: flex;
+      justify-content: space-between;
+      .showPsBox {
+        display: flex;
+        align-items: center;
+        .showPsChe {
+          margin-top: 2px;
+          margin-right: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+    .inputSign {
+      margin-top: 4px;
+      height: 50px;
+      outline: none;
+      border: 1px solid rgba(211, 211, 211, 0.541);
+    }
+  }
+  .between {
+    color: rgba(56, 56, 56, 0.582);
+    text-align: left;
+    width: 90%;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+  }
+  .policyBox {
+    width: 90%;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .policyBox > input {
+    cursor: pointer;
+    margin-top: 2px;
+    margin-right: 5px;
+  }
+  .policyBox > label {
+    font-size: 0.9rem;
+  }
+  .policyBox > label > span {
+    font-size: 1rem;
+    color: rgb(37, 84, 162);
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .policyBox > label > span:hover {
+    text-decoration: underline;
+  }
+  .signInBtnBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .alertSignIn {
+      display: flex;
+      width: 90%;
+      height: 65px;
+      align-items: center;
+      justify-content: space-evenly;
+      .exclaIcon {
+        font-size: 2rem;
+        margin-left: 5px;
+        margin-bottom: 17px;
+        color: brown;
+      }
+    }
+    .alertSignIn > p {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+  .createAcc {
+    height: 40px;
+    width: 40%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(37, 85, 162, 0.842);
+    border: none;
+    border-radius: 4px;
+    margin: 15px 0;
+    cursor: pointer;
+  }
+  .jsEnable {
+    width: 60%;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+}

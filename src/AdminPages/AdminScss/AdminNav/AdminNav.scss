@@ -1,0 +1,13 @@
+.adminNav {
+  width: 100%;
+  min-height: 100px;
+  background-color: rgb(25, 29, 37);
+  border-bottom: 1px solid rgb(47, 57, 80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adminNav > h2 {
+  font-size: 2.5rem;
+  color: lightgrey;
+}

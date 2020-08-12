@@ -1,0 +1,121 @@
+.centerAnimeData {
+  width: 73%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: space-between;
+  .animeDataUp {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgba(104, 104, 104, 0.24);
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    .animeScoreData {
+      width: 20%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-right: 1px solid rgba(193, 193, 193, 0.329);
+      justify-content: center;
+      .scoreLabel {
+        background-color: rgb(37, 84, 162);
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 18px;
+        border-radius: 4px;
+        color: white;
+        padding-bottom: 3px;
+      }
+      .animeScoreDis {
+        font-size: 2rem;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.767);
+      }
+      .animeUserDis {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.767);
+      }
+    }
+  }
+  .animeScoreGeneral {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 96%;
+    margin-left: 5px;
+    .scoreGeneralUp {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 25px;
+      padding-right: 5px;
+      justify-content: space-between;
+      .animePopularity {
+        display: flex;
+        align-items: center;
+        .popuTitle {
+          font-size: 1.2rem;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 0.767);
+        }
+        .popuData {
+          font-size: 1.4rem;
+          font-weight: 700;
+          margin-top: 3px;
+          color: rgba(0, 0, 0, 0.767);
+          margin-left: 5px;
+        }
+      }
+    }
+    .scoreGeneralDown {
+      display: flex;
+      width: 100%;
+      min-width: 220px;
+      justify-content: space-evenly;
+      .animeSeasonData {
+        display: flex;
+        justify-content: center;
+        min-width: 140px;
+        overflow: auto;
+        padding: 0 4px;
+        border-right: 1px solid rgba(65, 65, 65, 0.411);
+        border-left: 1px solid rgba(65, 65, 65, 0.411);
+        .animeSeasonTitle {
+          color: rgb(37, 84, 162);
+          font-size: 0.9rem;
+          margin-right: 4px;
+          font-weight: 400;
+          cursor: pointer;
+        }
+        .animeSeasonTitle:hover {
+          text-decoration: underline;
+        }
+      }
+      .separator {
+        background-color: rebeccapurple;
+      }
+    }
+  }
+  .animeDataDown {
+    height: 35%;
+    width: 100%;
+  }
+  .separator {
+    margin: 0 5px;
+    color: rgba(193, 193, 193, 0.705);
+  }
+  .publicList {
+    height: 40px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(218, 20, 20);
+    margin-left: 1px;
+  }
+}

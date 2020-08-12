@@ -1,0 +1,97 @@
+.socialMediaSign {
+  display: flex;
+  width: 100%;
+  height: 115px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .socialMediaSignTitle {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  .socialMediaBox {
+    width: 90%;
+    .iconDis {
+      width: 160px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      cursor: pointer;
+      border-radius: 2px;
+      .iconSign {
+        font-size: 2rem;
+      }
+      .iconHeader {
+        font-size: 1.1rem;
+        font-weight: 400;
+      }
+    }
+    .blueFac {
+      background-color: #3b5898e0;
+      color: white;
+      transition: 0.3s ease-in-out;
+      .iconSign {
+        font-size: 2rem;
+        background-color: white;
+        border-radius: 50%;
+        transition: 0.3s ease-in-out;
+      }
+    }
+    .blueFac:hover {
+      background-color: rgb(216, 216, 216);
+      color: #3b5898e0;
+      transition: 0.3s ease-in-out;
+    }
+    .blueFac:hover > .iconSign {
+      background-color: #3b5898e0;
+      color: white;
+      border-radius: 0;
+      transition: 0.3s ease-in-out;
+    }
+    .blueTw {
+      background-color: #00abeea6;
+      color: white;
+      transition: 0.3s ease-in-out;
+      .iconSign {
+        font-size: 2rem;
+        background-color: white;
+        border-radius: 50%;
+        transition: 0.3s ease-in-out;
+      }
+    }
+    .blueTw:hover {
+      background-color: rgb(216, 216, 216);
+      color: #00abeea6;
+      transition: 0.3s ease-in-out;
+    }
+    .blueTw:hover > .iconSign {
+      background-color: #00abeea6;
+      color: white;
+      border-radius: 0;
+      transition: 0.3s ease-in-out;
+    }
+    .mulGoo {
+      background-color: rgba(228, 228, 228, 0.87);
+      color: rgba(95, 95, 95, 0.815);
+      transition: 0.2s ease-in-out;
+      .iconSign {
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.753);
+        transition: 0.3s ease-in-out;
+      }
+    }
+    .mulGoo:hover {
+      background-color: #de5246;
+      color: white;
+      transition: 0.2s ease-in-out;
+    }
+    .mulGoo:hover > .iconSign {
+      background-color: white;
+      color: #de5246;
+      border-radius: 0;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}

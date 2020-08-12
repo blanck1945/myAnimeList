@@ -1,0 +1,44 @@
+.newsBody {
+  width: 98%;
+  min-height: 200px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 25px;
+  .newsText {
+    width: 70%;
+    min-height: 200px;
+  }
+  .newsText > p {
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 1rem;
+    padding: 0 5px;
+    text-align: center;
+  }
+  .newsText > h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 20px;
+  }
+  .newsText > h4 > span {
+    color: rgb(37, 84, 162);
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .newsText > h4 > span:hover {
+    text-decoration: underline;
+  }
+  .newsImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    min-height: 200px;
+    .imgNe {
+      width: 95%;
+      height: 350px;
+    }
+  }
+}

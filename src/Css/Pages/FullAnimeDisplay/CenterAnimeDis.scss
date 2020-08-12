@@ -1,0 +1,39 @@
+.centerAnimeDis {
+  width: 75%;
+  min-height: 400px;
+  margin-top: 8px;
+  border-left: 1px solid lightgrey;
+  .navPages {
+    height: 40px;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0 5px;
+    border-bottom: none;
+    .downNavDis {
+      width: 100%;
+      margin-bottom: 15px;
+      border-bottom: 1px solid rgb(37, 84, 162);
+    }
+    .navLinkPasive {
+      min-width: 25px;
+      height: 25px;
+    }
+  }
+  .centerAnimeBody {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+  }
+  .centerSynopsisAnime {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(193, 193, 193, 0.329);
+  }
+  .centerSocialBox {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

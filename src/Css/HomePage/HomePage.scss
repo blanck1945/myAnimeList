@@ -1,0 +1,73 @@
+.homePage {
+  width: 98%;
+  min-height: 100vh;
+  display: flex;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  margin: auto;
+  justify-content: space-between;
+  .centerPage {
+    width: 70%;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 30px;
+    .centerBox {
+      width: 100%;
+      width: 100%;
+      padding: 2px 5px;
+      margin: auto;
+      min-height: 100%;
+      border-right: 1px solid lightgrey;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .forumBox {
+      width: 98%;
+      min-height: 35px;
+      margin: auto;
+      margin-top: 15px;
+      .forumHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.9rem;
+        padding-bottom: 3px;
+        border-bottom: 1px solid lightgrey;
+        .view {
+          color: rgb(37, 84, 162);
+          font-size: 0.9rem;
+          font-weight: 400;
+          cursor: pointer;
+        }
+        .view:hover {
+          text-decoration: underline;
+        }
+      }
+      .forumBody {
+        width: 95%;
+        min-height: 30px;
+        font-size: 1rem;
+        margin-top: 3px;
+      }
+    }
+    .socialBox {
+      min-width: 90%;
+      min-height: 340px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .forumSpace {
+      width: 96%;
+      min-height: 300px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

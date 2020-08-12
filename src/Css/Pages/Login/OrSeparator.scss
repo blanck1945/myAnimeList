@@ -1,0 +1,17 @@
+.orSeparator {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .lineSeparator {
+    height: 20px;
+    width: 45%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.541);
+  }
+  .or {
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Work+Sans:wght@200;300&display=swap");
+
+.navPages {
+  width: 98%;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgb(37, 84, 162);
+  .upNavDis {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    .linkElementBox {
+      min-width: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .linkElement {
+        color: rgb(37, 84, 162);
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+      }
+      .linkElement:hover {
+        text-decoration: underline;
+      }
+    }
+    .arrowMar {
+      margin-left: 12px;
+      font-weight: 400;
+      margin-right: 15px;
+    }
+  }
+  .downNavDis {
+    width: 95%;
+    height: 40px;
+    display: flex;
+    padding-bottom: 3px;
+    align-items: flex-end;
+    .navLinkPasive {
+      min-width: 70px;
+      margin: 0 5px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      .filterLink {
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: rgb(37, 84, 162);
+        padding: 2px 4px;
+        cursor: pointer;
+      }
+      .filterLink:hover {
+        background-color: rgb(41, 71, 141);
+        color: white;
+      }
+    }
+    .navLinkSelect {
+      background-color: rgb(41, 71, 141);
+      color: white;
+      padding: 2px 4px;
+      .filterLink {
+        font-size: 0.9rem;
+        font-weight: 400;
+        cursor: pointer;
+      }
+    }
+  }
+  .centerAnimeBody {
+    background-color: slateblue;
+    width: 100%;
+    min-height: 220px;
+    margin-top: 15px;
+    display: flex;
+  }
+}

@@ -1,0 +1,49 @@
+.usernameBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 30px;
+  .iconLogUser {
+    display: flex;
+    width: 60%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    .iconTopNav {
+      font-size: 1.4rem;
+      cursor: pointer;
+      color: rgb(37, 84, 162);
+      transition: 0.2s ease-in-out;
+    }
+    .iconTopNav:hover {
+      color: rgba(37, 85, 162, 0.582);
+      transition: 0.2s ease-in-out;
+    }
+  }
+  .usernameBoxNav {
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    padding: 2px 3px;
+    .userAvatar {
+      width: 20px;
+      height: 20px;
+    }
+    .userName {
+      cursor: pointer;
+      margin-left: 3px;
+      color: rgba(0, 0, 0, 0.753);
+      font-size: 1.2rem;
+    }
+    .dropArrow {
+      color: rgba(0, 0, 0, 0.753);
+      cursor: pointer;
+      margin-top: 2px;
+    }
+  }
+  .usernameBoxNav:hover {
+    background-color: rgba(100, 148, 237, 0.178);
+    transition: 0.2s ease-in-out;
+  }
+}

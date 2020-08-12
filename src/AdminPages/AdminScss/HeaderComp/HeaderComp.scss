@@ -1,0 +1,40 @@
+.deletingTitle {
+  border-bottom: 1px solid black;
+  font-size: 1.8rem;
+  margin-top: 55px;
+}
+.deleteMsgBox {
+  margin-top: 15px;
+  .warningBox {
+    background-color: brown;
+    color: white;
+    width: 75%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px 14px;
+  }
+  .updateBox {
+    background-color: darkgoldenrod;
+    color: white;
+    width: 75%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px 14px;
+  }
+  .addingBox {
+    background-color: rgb(38, 138, 20);
+    color: white;
+    width: 75%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px 14px;
+  }
+  .credentialsBox {
+    background-color: rgb(16, 51, 167);
+    color: white;
+    width: 75%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 10px 14px;
+  }
+}

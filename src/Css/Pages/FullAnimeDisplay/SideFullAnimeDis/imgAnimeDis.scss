@@ -1,0 +1,41 @@
+.imgAnimeDis {
+  width: 90%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  .savePin {
+    position: absolute;
+    visibility: hidden;
+  }
+  .animeImage {
+    width: 100%;
+    max-height: 400px;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 11px;
+  }
+  .animeImage:hover ~ .savePin {
+    visibility: visible;
+    background-color: maroon;
+    color: white;
+    padding: 4px 6px;
+  }
+  .addToFavBox {
+    height: 25px;
+    width: 100%;
+    border-bottom: 1px solid rgba(2, 82, 255, 0.52);
+    cursor: pointer;
+    .addToFavLink {
+      font-size: 0.9rem;
+      color: rgba(16, 62, 170, 0.849);
+      font-weight: 400;
+      height: 24px;
+      padding-left: 5px;
+    }
+  }
+  .addToFavBox:hover > .addToFavLink {
+    color: white;
+    background-color: rgba(16, 62, 170, 0.849);
+  }
+}

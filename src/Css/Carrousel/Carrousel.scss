@@ -1,0 +1,167 @@
+.carrouselSpace {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  .carrousel {
+    height: 250px;
+    max-width: 98%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: left;
+    .anime2020 {
+      width: 190px;
+      height: 250px;
+      z-index: 4;
+    }
+    .kami {
+      width: 177px;
+    }
+    .glepnir {
+      width: 176px;
+    }
+    .souma {
+      width: 190px;
+    }
+    .gr {
+      margin: 0 4px;
+      cursor: pointer;
+    }
+    .gr:hover {
+      opacity: 0.7;
+      transition: 0.3s ease-in-out;
+    }
+    .gr:hover ~ .carroBtn {
+      visibility: visible;
+      transform: translateX(50px);
+      transition: 0.3s ease-in-out;
+    }
+    .gr:hover ~ .carroBtnLeft {
+      visibility: visible;
+      transform: translateX(-45px);
+      transition: 0.3s ease-in-out;
+    }
+    .min {
+      height: 180px;
+      width: 120px;
+    }
+    .anime2020Title {
+      color: rgb(255, 255, 255);
+      padding-left: 8px;
+      width: 190px;
+      position: absolute;
+      bottom: 95px;
+      font-size: 700;
+      float: initial;
+      z-index: 1;
+    }
+    .animeLastUpdated {
+      color: rgb(255, 255, 255);
+      padding-left: 8px;
+      width: 125px;
+      position: absolute;
+      bottom: -120px;
+      font-size: 300;
+      float: initial;
+      font-size: 0.8rem;
+    }
+    .animeLastUpdated:hover {
+      background-color: rgba(255, 255, 255, 0.342);
+      cursor: pointer;
+    }
+    .animeLastUpdatedLast {
+      color: rgb(255, 255, 255);
+      padding-left: 8px;
+      position: absolute;
+      bottom: -140px;
+      font-weight: 700;
+      width: 125px;
+
+      font-size: 0.8rem;
+    }
+    .animeLastUpdatedLast:hover {
+      background-color: rgba(255, 255, 255, 0.342);
+      cursor: pointer;
+    }
+    .carroBtn {
+      visibility: hidden;
+      position: absolute;
+      width: 155px;
+      height: 120px;
+      bottom: 140px;
+      left: -100px;
+      transform: translateX(5px);
+      transition: 0.3s ease-in-out;
+      background-color: rgba(0, 0, 0, 0.822);
+      border-radius: 0 50% 50% 0;
+      border: none;
+      z-index: 7;
+      .arrow {
+        font-size: 2rem;
+        color: lightgrey;
+        position: absolute;
+        bottom: 40px;
+        left: 114px;
+      }
+    }
+    .carroBtnLeft {
+      visibility: hidden;
+      position: absolute;
+      width: 155px;
+      height: 120px;
+      bottom: 140px;
+      left: 870px;
+      transform: translateX(5px);
+      transition: 0.3s ease-in-out;
+      background-color: rgba(0, 0, 0, 0.822);
+      border-radius: 50% 0 0 50%;
+      border: none;
+      z-index: 7;
+      .arrowLeft {
+        font-size: 2rem;
+        color: lightgrey;
+        position: absolute;
+        bottom: 40px;
+        right: 114px;
+      }
+    }
+    .subTitle {
+      color: rgb(37, 84, 162);
+      font-size: 0.8rem;
+      overflow: hidden;
+      white-space: nowrap;
+      padding-left: 5px;
+      text-overflow: ellipsis;
+      cursor: pointer;
+      max-width: 130px;
+    }
+    .mainSub {
+      min-width: 260px;
+    }
+    .subTitle:hover {
+      text-decoration: underline;
+    }
+  }
+  .ajust {
+    height: 195px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .video {
+    height: 165px;
+    max-width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    .pvVideo {
+      border: none;
+      width: 260px;
+      margin: 0 3px;
+    }
+    .pvVideo:hover {
+      opacity: 0.7;
+    }
+  }
+}

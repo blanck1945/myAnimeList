@@ -1,0 +1,21 @@
+.newsHeader {
+  width: 96%;
+  height: 45px;
+  background-color: rgba(194, 219, 233, 0.281);
+  display: flex;
+  margin: 0 auto;
+  margin-top: 15px;
+  .authorBox {
+    width: 48%;
+    .authorBoxItem {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+    .authorBoxItem > span {
+      color: rgb(37, 84, 162);
+      cursor: pointer;
+      text-decoration: underline;
+      font-weight: 700;
+    }
+  }
+}

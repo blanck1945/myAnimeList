@@ -1,0 +1,20 @@
+.loginBox {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 12px;
+  background-color: rgba(33, 47, 248, 0.137);
+  .formBox {
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(37, 84, 162);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

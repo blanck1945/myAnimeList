@@ -1,0 +1,146 @@
+.asideProfile {
+  width: 25%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  .imgProfile {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .userAvatar {
+      width: 85%;
+      height: 65%;
+    }
+    .upload {
+      margin-top: 50px;
+      font-size: 1.3rem;
+      cursor: pointer;
+      color: rgb(37, 84, 162);
+    }
+    .upload:hover {
+      text-decoration: underline;
+    }
+  }
+  .notification {
+    width: 100%;
+    height: 35%;
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    justify-content: space-evenly;
+    align-items: center;
+    .notiBtn {
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgba(92, 92, 92, 0.37);
+      align-items: center;
+      justify-content: space-evenly;
+      .notiICon {
+        font-size: 2.2rem;
+        color: rgb(37, 84, 162);
+      }
+    }
+    .notiBtn > h4 {
+      color: rgb(37, 84, 162);
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+  }
+  .personalInfo {
+    width: 95%;
+    min-height: 200px;
+    border-top: 1px solid rgba(92, 92, 92, 0.37);
+    margin: auto;
+    margin-top: 5px;
+    .personalInfoRow {
+      display: flex;
+      align-items: center;
+      height: 30px;
+      justify-content: space-between;
+      padding: 0 4px;
+      .personalData {
+        font-size: 0.9rem;
+        font-weight: 400;
+      }
+    }
+    .even {
+      background-color: rgba(104, 104, 104, 0.157);
+    }
+    .userList {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .userListBtn {
+        height: 40px;
+        width: 45%;
+        border-radius: 4px;
+        background-color: rgb(37, 84, 162);
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+        margin: 0 4px;
+        margin-top: 15px;
+      }
+      .userListBtn:hover {
+        background-color: rgba(37, 85, 162, 0.842);
+      }
+    }
+  }
+  .actionBox {
+    width: 95%;
+    height: 100px;
+    margin-top: 10px;
+    .actionStatsItem {
+      color: rgb(37, 84, 162);
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 6px;
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    .actionStatsItem:hover {
+      background-color: rgba(144, 144, 144, 0.171);
+      transition: 0.3s ease-in-out;
+    }
+  }
+  .friendsList {
+    width: 95%;
+    margin: auto;
+    min-height: 50px;
+    .friendsHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 4px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid rgba(155, 155, 155, 0.459);
+      .allLink {
+        color: rgb(37, 84, 162);
+        display: flex;
+        cursor: pointer;
+        .allpip {
+          margin-top: 1px;
+        }
+      }
+      .allLink > h4 {
+        font-weight: 400;
+        margin: 0 3px;
+      }
+      .allLink:hover > h4 {
+        text-decoration: underline;
+      }
+    }
+    .friendsMsg {
+      font-size: 0.9rem;
+      font-weight: 400;
+      padding-left: 4px;
+    }
+  }
+}

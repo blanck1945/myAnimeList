@@ -1,0 +1,27 @@
+.container {
+  width: 98%;
+  min-height: 500px;
+  margin: auto;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  padding-bottom: 60px;
+  border-bottom: 1px solid lightgrey;
+  .downNavDis {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    .alphaMid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      .navLinkPasive {
+        min-width: 1px;
+        margin: 0 1px;
+        .filterLink {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

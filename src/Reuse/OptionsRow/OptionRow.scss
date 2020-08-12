@@ -1,0 +1,25 @@
+.optionRow {
+  display: grid;
+  grid-template-columns: 243px 241px 241px 241px 241px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.356);
+  .optionRowBox {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    cursor: pointer;
+    .optionRowIcon {
+      color: rgba(195, 195, 195, 0.685);
+      margin-left: 5px;
+    }
+    .optionRowItem {
+      font-size: 0.9rem;
+      color: rgb(37, 84, 162);
+      font-weight: 400;
+    }
+  }
+  .optionRowBox:hover {
+    background-color: rgba(18, 96, 223, 0.109);
+  }
+}

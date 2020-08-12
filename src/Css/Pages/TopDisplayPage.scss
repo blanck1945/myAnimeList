@@ -1,0 +1,80 @@
+.topDisplayPage {
+  width: 98%;
+  margin: auto;
+  min-height: 300px;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  .centerBox {
+    width: 100%;
+    margin: auto;
+    .faceBanner {
+      width: 70%;
+      margin: auto;
+      margin-top: 15px;
+    }
+    .facebookClass {
+      width: 99%;
+      height: 95px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: rgb(208, 211, 241);
+      cursor: pointer;
+    }
+    .topDisplay {
+      display: flex;
+      width: 98%;
+      height: 35px;
+      margin: auto;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 25px;
+      .centerTitle {
+        display: flex;
+        .topDisplayTitle {
+          font-size: 1.5rem;
+          display: flex;
+        }
+        .divUpdate {
+          height: 35px;
+          display: flex;
+          align-items: flex-end;
+          padding-bottom: 5px;
+          .updateTwice {
+            font-weight: 400;
+            margin-left: 18px;
+            font-size: 0.8rem;
+            text-align: justify;
+          }
+          .centerTitleLink {
+            font-size: 0.8rem;
+            font-weight: 400;
+            color: rgb(37, 84, 162);
+            margin-left: 10px;
+            cursor: pointer;
+          }
+          .centerTitleLink:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .next50 {
+        background-color: rgba(16, 62, 170, 0.849);
+        border: none;
+        border-radius: 4px;
+        padding: 4px 6px;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        cursor: pointer;
+        color: white;
+        .arrowRight {
+          font-size: 1.1rem;
+        }
+      }
+      .next50:hover {
+        background-color: rgba(16, 62, 170, 0.671);
+      }
+    }
+  }
+}

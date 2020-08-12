@@ -1,0 +1,230 @@
+.animeDisCenter {
+  display: grid;
+  grid-template-columns: 34% 34% 34%;
+  width: 98%;
+  min-height: 65vh;
+  margin: auto;
+  padding-left: 5px;
+  align-items: center;
+  justify-content: space-between;
+  .seasonalAnimeDis {
+    height: 400px;
+    width: 380px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(87, 86, 86, 0.294);
+    .sesonalAnimeHeader {
+      display: flex;
+      height: 50px;
+      .animeHeaderBox {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .animeHeaderLink {
+          text-decoration: none;
+          .animeHeaderTitle {
+            color: rgb(37, 84, 162);
+            margin-left: 35px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-align: center;
+            cursor: pointer;
+            margin-bottom: 4px;
+          }
+          .animeHeaderTitle:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .animeHeaderIconBox {
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .compuIcon {
+          font-size: 1.8rem;
+        }
+      }
+    }
+    .totalBG {
+      background-color: rgba(95, 95, 95, 0.116);
+      height: 25px;
+      .sesonalAnimeDownHeader {
+        display: flex;
+        .downHeaderInfo {
+          width: 85%;
+          height: 20px;
+          margin-top: 2.5px;
+          display: grid;
+          grid-template-columns: 90px 90px 90px;
+          align-items: center;
+          justify-content: center;
+          margin-left: 30px;
+          .headInfoStu {
+            height: 90%;
+            display: flex;
+            font-weight: 400;
+            color: rgb(37, 84, 162);
+            cursor: pointer;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+          }
+          .headInfoStu:hover {
+            text-decoration: underline;
+          }
+          .rightBar {
+            padding-right: 3px;
+            border-right: 1px solid rgba(87, 86, 86, 0.651);
+          }
+          .leftBar {
+            border-left: 1px solid rgba(87, 86, 86, 0.651);
+          }
+          .Center {
+            display: flex;
+            color: rgb(37, 84, 162);
+            align-items: center;
+            height: 75%;
+            margin: 0 4px;
+          }
+          .Grey {
+            padding-left: 3px;
+            cursor: default;
+            color: rgba(87, 86, 86, 0.651);
+          }
+          .Grey:hover {
+            text-decoration: none;
+          }
+        }
+        .animeBtnBox {
+          width: 15%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .animeTemplateBtn {
+            width: 30px;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 400;
+            color: rgb(37, 84, 162);
+            border: none;
+            margin-top: 3px;
+            cursor: pointer;
+            background-color: lightgrey;
+            transition: 0.3s ease-in-out;
+          }
+          .animeTemplateBtn:hover {
+            color: white;
+            background-color: rgba(199, 199, 199, 0.37);
+            transition: 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+  .sesonalAnimeGenre {
+    display: flex;
+    height: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(90, 90, 90, 0.205);
+    .animeGenreText {
+      border: 1px solid rgba(59, 59, 59, 0.383);
+      padding: 0 4px;
+      height: 18px;
+      background-color: white;
+      color: rgba(59, 59, 59, 0.548);
+      text-align: center;
+      border-radius: 12px;
+      font-size: 0.7rem;
+      font-weight: 400;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+    }
+    .animeGenreText:hover {
+      color: rgb(37, 84, 162);
+      background-color: rgb(220, 231, 236);
+      border-color: rgb(220, 231, 236);
+      transition: 0.3s ease-in-out;
+    }
+  }
+  .sesonalAnimeCenterBox {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    .sesonalAnimeImg {
+      width: 50%;
+      height: 100%;
+      .sesonalCenterImg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .sesonalAnimeSinop {
+      width: 50%;
+      height: 100%;
+      padding: 5px;
+      overflow: hidden;
+      .animeSinopPara {
+        font-size: 0.9rem;
+        font-weight: 400;
+      }
+    }
+    .sesonalAnimeSinop:hover {
+      overflow: auto;
+    }
+  }
+  .animeSesonalFoot {
+    height: 30px;
+    display: grid;
+    grid-template-columns: 150px 100px 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border-top: 1px solid rgba(87, 86, 86, 0.294);
+    .typeFoot {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .typeItem {
+        font-size: 0.8rem;
+        color: rgba(0, 0, 0, 0.705);
+      }
+    }
+    .scoreFoot {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .scoreItem {
+        font-size: 0.8rem;
+        color: rgba(0, 0, 0, 0.705);
+      }
+      .dis {
+        margin-right: 3px;
+      }
+      .big {
+        font-size: 0.9rem;
+      }
+    }
+    .memberFoot {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .memberItem {
+        font-size: 0.8rem;
+        color: rgba(0, 0, 0, 0.705);
+      }
+      .dis {
+        margin-right: 3px;
+      }
+      .big {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

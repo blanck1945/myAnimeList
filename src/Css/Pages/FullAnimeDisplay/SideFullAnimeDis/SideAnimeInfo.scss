@@ -1,0 +1,35 @@
+.sideAnimeInfo {
+  width: 90%;
+  min-height: 200px;
+  margin: auto;
+  margin-top: 25px;
+  .sideBoxTitle {
+    border-bottom: 1px solid rgba(158, 158, 158, 0.829);
+    .sideAnimeTitle {
+      color: black;
+      font-size: 1.4rem;
+    }
+  }
+  .sideAnimeItem {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    .sideAnimeLabel {
+      font: 1.1rem;
+      font-weight: 700;
+      color: rgba(26, 26, 26, 0.801);
+    }
+    .sideAnimeData {
+      margin-left: 5px;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+    .color {
+      color: rgba(9, 63, 190, 0.911);
+      cursor: pointer;
+    }
+    .color:hover {
+      text-decoration: underline;
+    }
+  }
+}

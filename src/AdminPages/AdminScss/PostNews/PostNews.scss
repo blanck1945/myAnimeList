@@ -1,0 +1,82 @@
+.addPosting {
+  background-color: white;
+  width: 80%;
+  min-height: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  .formHeader {
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    .formTitle {
+      font-size: 1.5rem;
+    }
+  }
+  .postingCenter {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    .postingHeader {
+      border: 1px solid black;
+      border-bottom: none;
+      width: 95%;
+      min-height: 90px;
+      .headerInputs {
+        display: flex;
+        justify-content: space-evenly;
+        .inputSide {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 50%;
+          padding: 10px 0;
+        }
+        .generalInputs {
+          width: 70%;
+          border: none;
+          outline: none;
+          border: 1px solid darkgrey;
+          border-radius: 4px;
+          height: 35px;
+        }
+        .requiredBorder {
+          border: 1px solid rgb(221, 22, 22);
+        }
+      }
+    }
+    .postingSide {
+      width: 95%;
+      min-height: 200px;
+      border: 1px solid black;
+      display: flex;
+      padding: 10px 0;
+      flex-direction: column;
+      align-items: center;
+    }
+    .postingSide > textArea {
+      width: 95%;
+      min-height: 200px;
+    }
+    .postingImg {
+      border: 1px solid black;
+      width: 95%;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+    }
+    .postingImg > input {
+      margin-left: 30px;
+      margin-top: 2px;
+      width: 80%;
+    }
+  }
+}

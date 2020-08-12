@@ -1,0 +1,20 @@
+.upSignForm {
+  width: 87%;
+  margin: auto;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.541);
+  .upSignPara {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    width: 85%;
+    margin-top: 8px;
+    color: rgba(83, 83, 83, 0.787);
+  }
+}

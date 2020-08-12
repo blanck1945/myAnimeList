@@ -1,0 +1,49 @@
+.seasonExtend {
+  display: flex;
+  width: 110%;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  .navLinkPasive {
+    .filterLink {
+      margin-top: 18px;
+    }
+  }
+  .navLinkSelect {
+    margin-top: 18px;
+    height: 25px;
+  }
+  .LeftArchive {
+    width: 450px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 18px;
+    display: flex;
+    .jumpToText {
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+    .seasonSelect {
+      width: 80px;
+      height: 23px;
+      margin: 0 8px;
+      margin-top: 1px;
+      border: 1px solid rgba(144, 144, 144, 0.5);
+    }
+    .yearInp {
+      width: 80px;
+      margin-top: 1px;
+      height: 23px;
+      margin-right: 8px;
+      border: 1px solid rgba(144, 144, 144, 0.5);
+    }
+    .goBtn {
+      background-color: rgba(37, 85, 162, 0.856);
+      border: none;
+      height: 23px;
+      border-radius: 4px;
+      cursor: pointer;
+      color: white;
+    }
+  }
+}

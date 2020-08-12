@@ -1,0 +1,156 @@
+.animeDisRow {
+  display: grid;
+  height: 120px;
+  grid-template-columns: 9% 64% 9% 9% 9%;
+  .animeRank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    color: rgba(165, 165, 165, 0.815);
+    border-left: 1px solid rgba(211, 211, 211, 0.712);
+  }
+  .animeBoxInf {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 1px solid rgba(211, 211, 211, 0.712);
+    .animeBoxImg {
+      width: 80px;
+      .topAnimeImg {
+        margin-left: 20px;
+        height: 95px;
+        width: 70px;
+      }
+    }
+    .animeBoxData {
+      display: flex;
+      margin-left: 20px;
+      flex-direction: column;
+      height: 95px;
+      margin-bottom: 18px;
+      .animeBoxDataHead {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: rgb(37, 84, 162);
+        font-size: 1.1rem;
+        .animeTopLink {
+          color: rgb(37, 84, 162);
+          text-decoration: none;
+        }
+        .topAnimeTitle:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+        .screenIcon {
+          margin-left: 8px;
+          margin-top: 7px;
+          cursor: pointer;
+        }
+      }
+      .animeTypeInfo {
+        display: flex;
+        color: rgba(165, 165, 165, 0.815);
+        .animeTypeType {
+          font-size: 0.9rem;
+          font-weight: 400;
+        }
+        .animeTypeEpi {
+          font-size: 0.9rem;
+          font-weight: 400;
+          margin-left: 3px;
+        }
+      }
+      .animeFirstLast {
+        display: flex;
+        align-items: center;
+        color: rgba(165, 165, 165, 0.815);
+        .animeFirstItem {
+          font-weight: 400;
+          font-size: 0.9rem;
+        }
+        .separatorIte {
+          margin: 0 5px;
+          margin-bottom: 2px;
+        }
+      }
+      .animeMemb {
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: rgba(165, 165, 165, 0.815);
+      }
+    }
+  }
+  .animeScoreBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid rgba(211, 211, 211, 0.712);
+    .animeScore {
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-left: 2px;
+    }
+    .starIcon {
+      font-size: 0.8rem;
+      margin-top: 2px;
+      color: goldenrod;
+    }
+  }
+  .animeScoreUser {
+    border-left: 1px solid rgba(211, 211, 211, 0.712);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    .animeUserScore {
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-left: 3px;
+      color: rgba(165, 165, 165, 0.815);
+    }
+    .animeUserScore:hover {
+      text-decoration: underline;
+    }
+    .animeUserScore:hover ~ .starIcon {
+      color: goldenrod;
+    }
+    .starIcon {
+      font-size: 0.8rem;
+      margin-top: 2px;
+      color: rgba(165, 165, 165, 0.815);
+    }
+    .starIcon:hover {
+      color: goldenrod;
+    }
+    .starIcon:hover ~ .animeUserScore {
+      text-decoration: underline;
+    }
+  }
+  .addToListBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgba(211, 211, 211, 0.712);
+    border-left: 1px solid rgba(211, 211, 211, 0.712);
+    .addToUserList {
+      height: 30px;
+      border-radius: 4px;
+      width: 85%;
+      border: none;
+      background-color: rgba(16, 62, 170, 0.849);
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    .addToUserList:hover {
+      background-color: rgba(16, 62, 170, 0.671);
+    }
+  }
+}
+.grey {
+  background-color: rgba(169, 169, 169, 0.226);
+}

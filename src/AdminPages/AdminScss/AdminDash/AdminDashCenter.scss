@@ -1,0 +1,25 @@
+.adminDashCenter {
+  width: 75%;
+  max-height: 80%;
+  border-bottom: 1px solid rgb(47, 57, 80);
+  border-left: 1px solid rgb(47, 57, 80);
+  overflow: auto;
+  .addFormDiv {
+    width: 98%;
+    min-height: 50px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    .centerContainer {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      background-color: white;
+      margin-bottom: 35px;
+      padding: 0 10px;
+      padding-bottom: 10px;
+      min-height: 50px;
+    }
+  }
+}

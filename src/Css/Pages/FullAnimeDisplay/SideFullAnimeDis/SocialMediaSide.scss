@@ -1,0 +1,25 @@
+.socialMediaBox {
+  width: 90%;
+  margin: auto;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 2.9rem;
+  margin-top: 15px;
+  .socialSideIcon {
+    cursor: pointer;
+  }
+  .face {
+    color: #3b5998;
+  }
+  .twi {
+    color: #00acee;
+  }
+  .reddit {
+    color: rgb(255, 118, 68);
+  }
+  .tumb {
+    color: #36465d;
+  }
+}

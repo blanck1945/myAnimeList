@@ -1,0 +1,88 @@
+.forumHome {
+  margin-bottom: 25px;
+  .forumBody {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    .forumImg {
+      width: 70px;
+      height: 100px;
+      margin-right: 8px;
+      border: 1px solid rgb(177, 177, 177);
+      padding: 2px;
+      cursor: pointer;
+    }
+    .forumText {
+      min-height: 100px;
+      .forumTitle {
+        color: rgb(9, 53, 126);
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      .forumTitle:hover {
+        text-decoration: underline;
+      }
+      .forumPara {
+        font-size: 1rem;
+        overflow: hidden;
+        white-space: wrap;
+        text-overflow: ellipsis;
+        .readMore {
+          color: rgb(9, 53, 126);
+          cursor: pointer;
+          margin-left: 5px;
+        }
+        .readMore:hover {
+          text-decoration: underline;
+        }
+      }
+      .authorBox {
+        height: 35px;
+        display: flex;
+        align-items: center;
+        .forumDate {
+          color: rgb(161, 161, 161);
+          font-size: 0.9rem;
+          font-weight: 400;
+          margin-right: 5px;
+          .forumUser {
+            color: rgb(9, 53, 126);
+            cursor: pointer;
+          }
+          .forumUser:hover {
+            text-decoration: underline;
+          }
+        }
+        .forumComme {
+          color: rgb(9, 53, 126);
+          cursor: pointer;
+          font-weight: 400;
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+        .forumComme:hover {
+          text-decoration: underline;
+        }
+        .spoilerBtn {
+          width: 50px;
+          height: 20px;
+          background-color: coral;
+          border: none;
+          margin-left: 5px;
+          margin-top: 6px;
+          border-radius: 20px;
+          border: 1px solid crimson;
+          color: crimson;
+          display: flex;
+          align-items: center;
+          font-weight: 300;
+          justify-content: center;
+          font-size: 0.8rem;
+          background-color: white;
+        }
+      }
+    }
+  }
+}

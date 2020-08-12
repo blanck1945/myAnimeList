@@ -1,0 +1,23 @@
+.animeFooterBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  margin-right: 25px;
+  margin-top: 20px;
+  padding-bottom: 3px;
+  color: black;
+  border-bottom: 1px solid lightgrey;
+  .animeFooterTitle {
+    font-size: 1.1rem;
+  }
+  .footerMore {
+    color: rgb(37, 84, 162);
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .footerMore:hover {
+    text-decoration: underline;
+  }
+}

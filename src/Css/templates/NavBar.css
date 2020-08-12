@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.navbar {
+    width: 98%;
+    height: 55px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.malSupport {
+    width: 300px;
+    background-color: rgb(242, 138, 41);
+    height: 40px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.malLogo {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.hideAdd {
+    background-color: rgb(236, 125, 20);
+    height: 30px;
+    min-width: 120px;
+    border-radius: 4px;
+    margin-left: 90px;
+    margin-right: 5px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hideAdd:hover {
+    background: rgb(250, 154, 65)
+}
+
+.userNav {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.iconUser {
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ico {
+    font-size: 1.8rem;
+    color: rgb(37, 84, 162);
+    cursor: pointer;
+}
+
+.ico:hover {
+    color: rgb(126, 164, 226);
+    transition-delay: 0.2s;
+}
+
+.userAvatar {
+    min-width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginBtn {
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(37, 84, 162);
+    color: rgb(37, 84, 162);
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 8px;
+    margin-left: 3px;
+}
+
+.loginBtn:hover {
+    background: lightgrey;
+}
+
+.supportMal {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signBtn {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(37, 84, 162);
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.signBtn:hover {
+    background-color: rgb(86, 129, 199);
+}

@@ -1,0 +1,38 @@
+.malFaceSquare {
+  width: 340px;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 2px;
+  justify-content: space-between;
+  background-color: rgb(208, 211, 241);
+  outline: 8px solid rgb(37, 84, 162);
+  border: 6px solid rgb(253, 253, 253);
+  cursor: pointer;
+  .fbIcon {
+    font-size: 3.5rem;
+    margin-top: 25px;
+    color: rgb(37, 84, 162);
+  }
+  .malLogo {
+    width: 180px;
+  }
+  .malFaceFooter {
+    display: flex;
+    width: 80%;
+    height: 60px;
+    align-items: center;
+    .followFb {
+      width: 100px;
+      font-size: 1rem;
+      margin-right: 20px;
+      color: rgb(37, 84, 162);
+    }
+    .computer {
+      font-size: 4rem;
+      color: rgb(37, 84, 162);
+    }
+  }
+}

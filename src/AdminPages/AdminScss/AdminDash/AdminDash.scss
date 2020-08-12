@@ -1,0 +1,51 @@
+.adminContainer {
+  width: 100%;
+  min-height: 85vh;
+  display: flex;
+  .adminDashSide {
+    width: 25%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(25, 29, 37);
+    .powerBy {
+      background-color: rgb(47, 57, 80);
+      color: white;
+      font-size: 1.5rem;
+      .react {
+        margin: 0 6px;
+        color: rgb(83, 193, 222);
+      }
+      .redux {
+        margin: 0 6px;
+        color: rgb(119, 71, 188);
+      }
+    }
+    .powerBy:hover {
+      background-color: rgb(47, 57, 80);
+      color: white;
+    }
+    .adminDashLabel {
+      display: flex;
+      color: rgba(255, 255, 255, 0.719);
+      align-items: center;
+      height: 70px;
+    }
+  }
+  .adminDashSide > h3 {
+    width: 100%;
+    min-height: 70px;
+    margin: 1px 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding-left: 10px;
+    background-color: rgba(182, 179, 179, 0.76);
+  }
+  .adminDashSide > h3:hover {
+    background-color: darkolivegreen;
+    color: white;
+  }
+}

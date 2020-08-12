@@ -1,0 +1,50 @@
+.dropped {
+  background-color: brown;
+}
+
+.planToWatch {
+  background-color: lightgrey;
+}
+.addToMyList {
+  height: 30px;
+  border-radius: 4px;
+  padding: 0 4px;
+  border: none;
+  background-color: rgba(37, 85, 162, 0.794);
+  cursor: pointer;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.watching {
+  border: 1px solid rgb(20, 148, 20);
+  color: rgb(18, 158, 18);
+  outline: none;
+  background-color: white;
+}
+.complete {
+  border: 1px solid rgb(37, 84, 162);
+  color: rgb(37, 84, 162);
+  outline: none;
+  background-color: white;
+}
+.onHold {
+  border: 1px solid goldenrod;
+  color: goldenrod;
+  outline: none;
+  background-color: white;
+}
+.drop {
+  border: 1px solid brown;
+  color: brown;
+  outline: none;
+  background-color: white;
+}
+.planTo {
+  border: 1px solid rgba(168, 168, 168, 0.596);
+  color: rgba(168, 168, 168, 0.596);
+  outline: none;
+  background-color: white;
+}

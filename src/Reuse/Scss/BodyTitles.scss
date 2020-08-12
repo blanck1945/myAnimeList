@@ -1,0 +1,17 @@
+.forumHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  padding-bottom: 3px;
+  border-bottom: 1px solid lightgrey;
+  .view {
+    color: rgb(37, 84, 162);
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .view:hover {
+    text-decoration: underline;
+  }
+}

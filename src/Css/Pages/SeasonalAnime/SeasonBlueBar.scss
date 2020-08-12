@@ -1,0 +1,15 @@
+.seasonBlueBar {
+  width: 98%;
+  margin: auto;
+  background-color: rgba(37, 85, 162, 0.829);
+  background-color: rgba(37, 85, 162, 0.829);
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  .filterMedia {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+}

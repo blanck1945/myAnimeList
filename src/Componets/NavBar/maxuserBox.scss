@@ -1,0 +1,51 @@
+.maxUserBox {
+  display: flex;
+  min-height: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  .userDesMenu {
+    position: absolute;
+    width: 180px;
+    top: 45px;
+    height: 200px;
+    margin-right: 20px;
+    z-index: 5;
+    border: 1px solid rgb(37, 84, 162);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    background-color: rgba(127, 255, 212, 0.363);
+    .linkProfi {
+      text-decoration: none;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      outline: none;
+      color: rgb(37, 84, 162);
+      background-color: rgba(211, 211, 211, 0.575);
+    }
+    .linkProfi:hover {
+      background-color: rgba(37, 85, 162, 0.835);
+      color: white;
+    }
+  }
+  .userDesMenu > h4 {
+    background-color: rgba(211, 211, 211, 0.575);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(37, 84, 162);
+    cursor: pointer;
+  }
+  .userDesMenu > h4:hover {
+    background-color: rgba(37, 85, 162, 0.835);
+    color: white;
+  }
+}
