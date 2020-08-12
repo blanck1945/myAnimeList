@@ -1,6 +1,7 @@
 <h3>Copia de a pagina https://myanimelist.net/<3>
 
 <h2>Frontend: React-SCSS-Redux<h2>
+  
 <h2>Backend: Express-Sequelize - https://github.com/blanck1945/MyAnimeList_Backend<h2>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
