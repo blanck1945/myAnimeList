@@ -1,4 +1,4 @@
-<h3>Copia de a pagina https://myanimelist.net/<3>
+<h3>Copia de a pagina https://myanimelist.net</h3>
 
 <h2>Frontend: React-SCSS-Redux<h2>
   
